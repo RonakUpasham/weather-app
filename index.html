@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=320, height=device-height" />
+	<link rel="stylesheet" href="style.css">
+	<title>MetaWeather</title>
+</head>
+<body>
+	<div class="container-fluid top-section">
+		<div class="row justify-content-between align-items-end my-row-1">
+			<div class="col-md-2 col-11 offset-1 text-center pt-2">
+				<img height=100px src="https://www.metaweather.com/static/img/weather/lc.svg">
+			</div>
+			<div class="col-md-6 col-8 text-left pt-3">
+				<ul class="list-inline">
+					<li class="list-inline-item"><a href="#who-are-we">who are we</a></li>
+					<li class="list-inline-item"><a href="#how-to-use">how to use</a></li>
+					<li class="list-inline-item"><a href="#use-me">use me</a></li>
+				</ul>
+			</div>
+		</div>
+		<div class="row my-row-2">
+			<div class="col-11 offset-1">
+				<h1>welcome to meta weather</h1>
+			</div>
+		</div>
+	</div>
+	<div class="container" id="who-are-we">
+		<div class="row justify-content-center mt-5 mb-5">
+			<h2>
+				who are we
+			</h2>
+		</div>
+		<div class="row">
+			<div class="col-md-4">
+				<div class="row justify-content-center">
+					<i class="fa fa-globe"></i>
+				</div>
+				<div class="row justify-content-center">
+					<h3>
+						non-profit-organization.
+					</h3>
+				</div>
+				<div class="row justify-content-center offset-1 mr-4 ml-4">
+					We want to make this world a better place.And our main aim is to inform everyone in case of Natural Calamities.
+				</div>
+			</div>
+			<div class="col-md-4">
+				<div class="row justify-content-center pt-5 pt-md-0">
+					<i class="fa fa-calendar-check-o" aria-hidden="true"></i>
+				</div>
+				<div class="row justify-content-center">
+					<h3>
+						we work 365 days
+					</h3>
+				</div>
+				<div class="row justify-content-center offset-1 mr-4 ml-4">
+					We call every registered individual and give information regarding the calamities and measures to be taken of the same.
+				</div>
+			</div>
+			<div class="col-md-4">
+				<div class="row justify-content-center pt-5 pt-md-0">
+					<i class="fa fa-trophy" aria-hidden="true"></i>
+				</div>
+				<div class="row justify-content-center">
+					<h3>
+						ai powered system
+					</h3>
+				</div>
+				<div class="row justify-content-center offset-1 mr-4 ml-4">
+					Our system can predict future weathers of any city upto 5 days accurately.
+				</div>			
+			</div>
+		</div>
+	</div>
+	<div class="container-fluid mid-2" id="how-to-use">
+		<div class="row justify-content-center mt-5 mb-5">
+			<h2>how to use me</h2>
+		</div>
+		<div class="row">
+			<div class="col-md-3 offset-md-3 col-12 offset-2">
+				<i class="fa fa-laptop" aria-hidden="true"></i>
+			</div>
+			<div class="col-md-6 col-12">
+				<div class="row inst mr-4 ml-4">
+					<span class="fa-stack">
+					    <span class="fa fa-circle-thin fa-stack-2x col-12"></span>
+					    <strong class="fa-stack-1x">1</strong>
+					</span>
+				 	Register with us
+				</div>
+				<div class="row inst mr-4 ml-4">
+					<span class="fa-stack">
+					    <span class="fa fa-circle-thin fa-stack-2x col-12"></span>
+					    <strong class="fa-stack-1x">2</strong>
+					</span>			
+					 Pay a small Amount. To keep us Working
+				</div>
+				<div class="row inst mr-4 ml-4">
+					<span class="fa-stack">
+					    <span class="fa fa-circle-thin fa-stack-2x"></span>
+					    <strong class="fa-stack-1x">3</strong>
+					</span>			
+					 Give us permission to call in case of Emergency!
+				</div>
+				<div class="row inst mr-4 ml-4">
+					<span class="fa-stack">
+					    <span class="fa fa-circle-thin fa-stack-2x"></span>
+					    <strong class="fa-stack-1x">4</strong>
+					</span>			
+					 And it's Done!
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="container" id="use-me">
+		<div class="row justify-content-center mt-5 mb-5">
+			<h2>use me</h2>
+		</div>
+		<div class="row mr-4 ml-4">
+			<div class="col-md-4 offset-md-1">
+				<h5>Enter Location Name</h5>
+			</div>
+			<div class="col-md-4 mb-3">
+	            <input type="text" placeholder="Enter" class="finalpoints"  id="inputField"> 
+			</div>
+			<div class="col-md-3">
+                <a href="#" onclick="return false;" class="submit-button">Check!</a>
+			</div>
+		</div>
+		<div class="row justify-content-center city-name mb-3 mt-4 text-uppercase">
+			<h4>mumbai</h4>
+		</div>
+		<div class="cont-weather">
+			
+		</div>
+		<hr>
+		<div class="row offset-md-1 mr-4 ml-4">
+            <div class="bottom-list">
+                <a href="#" onclick="return false;" data-goto="2295412 Pune">Pune</a>
+                <a href="#" onclick="return false;" data-goto="2295405 Surat">Surat</a>
+                <a href="#" onclick="return false;" data-goto="2295402 Ahmedabad">Ahmedabad</a>
+                <a href="#" onclick="return false;" data-goto="2295414 Hyderabad">Hyderabad</a>
+                <a href="#" onclick="return false;" data-goto="2295420 Bangalore">Bangalore</a>
+                <a href="#" onclick="return false;" data-goto="2211096 Karachi">Karachi</a>
+                <a href="#" onclick="return false;" data-goto="2295424 Chennai">Chennai</a>
+                <a href="#" onclick="return false;" data-goto="28743736 New Delhi">New Delhi</a>
+                <a href="#" onclick="return false;" data-goto="2211177 Lahore">Lahore</a>
+            </div>
+        </div>
+	</div>
+	<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="app.js"></script>
+</body>
+</html>
