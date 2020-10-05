@@ -1,0 +1,150 @@
+.my-row-1{
+  font-size: 30px;
+  color: white;
+}
+
+.list-inline-item a:hover{
+  border-bottom: 2px solid #00d2fe;
+  padding-bottom: 10px;
+  text-decoration: none;
+  transition-duration: 0.1s;
+  color: white;
+}
+.list-inline-item a{
+  color: white;
+  text-transform: uppercase;
+}
+
+
+.top-section{
+  background: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) ), url('welcome-img.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  background-attachment: fixed;
+}
+
+
+.my-row-2 h1{
+  margin-top: 20%;
+  font-size: 50px;
+  text-transform: uppercase;
+  color: white;
+}
+
+.fa{
+  color: #00d2fe;
+  font-size: 40px;
+  padding-bottom: 10px;
+}
+
+h3{
+  font-size: 18px;
+  text-transform: uppercase;
+  padding-bottom: 10px;
+
+}
+
+h2{
+  border-bottom: 2px solid #00d2fe;
+  padding-bottom: 20px;
+  text-transform: uppercase;
+}
+
+.mid-2{
+  background-color: #f0f0f0;
+  padding-top: 10px;
+}
+
+.fa-laptop{
+  font-size: 200px;
+  color: black;
+}
+
+.fa-stack{
+  padding-right: 100px;
+  padding-bottom: 20px;
+}
+
+.row{
+  padding-bottom: 20px;
+}
+
+strong{
+  color: #00d2fe;
+}
+
+.inst{
+  font-size: 20px;
+}
+
+.container{
+  padding-bottom: 20px;
+       padding-right: 0px; /*15px in bootstrap.css*/
+     padding-left: 0px;  /*idem*/
+     margin-right: auto;
+     margin-left: auto;
+
+}
+
+.submit-button {
+  padding: 5px;
+  border-radius: 10px;
+  border: 3px solid #00d2fe;
+  color: #00d2fe;
+  background-color: white;
+  font-family: Helvetica;
+  font-size: 20px;
+  text-align: center;
+  box-shadow: 0 2px #999;
+  transition-duration: 0.4s;
+}
+
+.submit-button:hover {
+  background-color: #00d2fe; /* Green */
+  color: white;
+  cursor: pointer;
+}
+
+
+.my-font{
+  font-family: Helvetica;
+  font-size: 20px;
+}
+
+div.bottom-list {
+  background-color: white;
+  overflow: auto;
+  white-space: nowrap;
+  margin-bottom: 50px;
+}
+
+div.bottom-list a {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: #00d2fe;
+  text-decoration: none;
+  border-radius:20px;
+  text-transform: uppercase;
+  font-family: Helvetica;
+  transition-duration: 0.4s;
+  font-size: 24px;
+  margin-right: 10px;
+}
+
+div.bottom-list a:hover {
+  color: #fff;
+  background-color: #00d2fe;
+}
+
+html {
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
+.fa-spinner {
+  color: #00d2fe;
+  font-size: 500%;
+}
+
+
